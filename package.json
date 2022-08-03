@@ -1,0 +1,23 @@
+{
+  "name": "pinata-uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exemple-Mint.js",
+  "scripts": {
+    "start": "cross-env REACT_APP_PINATA_KEY=4be81571423707519f23 REACT_APP_PINATA_SECRET=09f7170f69a678dd6cf3dbaee64d05153f63a1f5f2225e850fb68c35e6bfadc2 node exemple-Mint.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amsteradams/pinata-uploading.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amsteradams/pinata-uploading/issues"
+  },
+  "homepage": "https://github.com/amsteradams/pinata-uploading#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
