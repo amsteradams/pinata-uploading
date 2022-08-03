@@ -6,8 +6,8 @@ import { postJSONBody } from './postJsonBody';
 require('dotenv').config();
 
 export default function Mint(props /*instance du contrat pour pouvoir communiquer avec*/) {
-    const key = process.env.REACT_APP_PINATA_KEY;
-    const secret = process.env.REACT_APP_PINATA_SECRET;
+    const key = process.env.PINATA_KEY;
+    const secret = process.env.PINATA_SECRET;
     const context = useContext(ContractContext); //web3 + comptes metamask connectés à la dapp
     const [uri, setUri] = useState();
 
